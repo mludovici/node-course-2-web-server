@@ -41,7 +41,7 @@ app.use(express.static(__dirname+'/public'))
 app.get('/', (req, res) => {
   // res.send('<h1>Hello Express!</h1>');
   res.render('home.hbs', {
-    pageTitle: 'About Page',
+    pageTitle: 'Home Page',
     welcomeMessage: 'Welcome to my homepage!',
   });    
 });
